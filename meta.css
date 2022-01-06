@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 216px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width:100%;
+}
+
+.download>button {
+    background: #037dd6;
+    border: none;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+.download>button:hover {
+    background: #0179ce;
+}
+
+.logo {
+    padding-right: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo>img {
+    height: 51px;
+    position: absolute;
+    top: 18px;
+    left: 156px;
+}
+
+.navbar>ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar>ul>li{
+    padding: 25px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.a {
+    transform-origin: 0 0;
+    position: absolute;
+    top: 51px;
+    left: 622px;
+    transform: rotate(270deg);
+    font-size: 23px;
+    /* font-weight: 600; */
+}
+
+.b {
+    transform-origin: 0 0;
+    position: absolute;
+    top: 51px;
+    left: 920px;
+    transform: rotate(270deg);
+    font-size: 23px;
+    /* font-weight: 600; */
+}
+
+.c {
+    transform-origin: 0 0;
+    position: absolute;
+    top: 51px;
+    left: 832px;
+    transform: rotate(270deg);
+    font-size: 23px;
+    /* font-weight: 600; */
+}
+
+.d {
+    transform-origin: 0 0;
+    position: absolute;
+    top: 51px;
+    left:735px;
+    transform: rotate(270deg);
+    font-size: 23px;
+    /* font-weight: 500; */
+}
+
+ul>li:hover {
+    color: #037dd6;
+    cursor: pointer;
+}
+
+.page-1-after-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 225px;
+    margin-left: 210px;
+    width: 898px;
+}
+
+.bold-text {
+    padding-right: 451px;
+    font-size: 25px;
+    color: #333;
+}
+
+.bold-text>h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-text {
+    padding-right: 451px;
+    font-size: 15px;
+    color: #333;
+}
+
+.download-2 {
+    width: 200px;
+    margin-top: 32px;
+    border: none;
+    font-size: 20px;
+    height: 50px;
+    background: #037dd6;
+    color: white;
+    border-radius: 30px;
+}
+
+.img-div>img {
+    z-index: -1;
+    position: absolute;
+    top: 202px;
+    right: 260px;
+    height: 379px;
+}
+
+.learn-more {
+    position: absolute;
+    top: 621px;
+    left: 582px;
+}
+
+.page-2 {
+    margin: 200px 209px;
+}
+
+.page-2>.bold-text3 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Euclid Circular B", sans-serif;
+    color: #333;
+}
+
+.page-2>.small-text2 {
+    color: #333;
+    width: 353px;
+    padding-top: 20px;
+}
+
+.page-2>img {
+    position: absolute;
+    bottom: -500px;
+    right: 300px;
+}
+
+.page-3>img {
+    position: absolute;
+    left: 207px;
+    bottom: -878px;
+}
+
+.page-3>.bold-text4 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Euclid Circular B", sans-serif;
+    color: #333;
+    position: absolute;
+    bottom: -663px;
+    left: 707px;
+}
+
+.page-3>.small-text3 {
+    color: #333;
+    position: absolute;
+    bottom: -781px;
+    left: 707px;
+    width: 404px;
+    font-size: 16px;
+}
+
+.page-4>img {
+    position: absolute;
+    bottom: -1290px;
+    right: 151px;
+}
+
+.bold-text5 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Euclid Circular B", sans-serif;
+    color: #333;
+}
+
+.small-text4 {
+    font-family: "Euclid Circular B", sans-serif;
+    color: #333;
+    width: 404px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.page-4 {
+    font-family: "Euclid Circular B", sans-serif;
+    margin: 850px 205px;
+}
+
+.page-5 {
+    background-color: #24292e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 457px;
+    margin-top: -600px;
+    padding-bottom: 10vh;
+}
+
+.page-5>img {
+    width: 200px;
+}
+
+.page-5>h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.downloadToday {
+    border: none;
+    color: white;
+    background: #037dd6;
+    height: 51px;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 239.89px;
+    border-radius: 80px;
+}
+.page-6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 122px 10px;
+}
+.page-6>h1{
+    padding-bottom: 43px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.page-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f9fb;
+}
+.big-text{
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 64px;
+}
+.tiny-text{
+    font-size: 15px;
+    padding: 19px 217px;
+    text-align: center;
+}
+#logo1, #logo2, #logo3, #logo4{
+    width: 223px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+#gogo1, #gogo2, #gogo3, #gogo4{
+    width: 223px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+#logo1:hover{
+    filter: grayscale(0);
+}
+#logo2:hover{
+    filter: grayscale(0);
+}
+#logo3:hover{
+    filter: grayscale(0);
+}
+#logo4:hover{
+    filter: grayscale(0);
+}
+#gogo1:hover{
+    filter: grayscale(0);
+}
+#gogo2:hover{
+    filter: grayscale(0);
+}
+#gogo3:hover{
+    filter: grayscale(0);
+}
+#gogo4:hover{
+    filter: grayscale(0);
+}
+.page-8{
+    background-color: #24292e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 551px;
+    padding-bottom: 10vh;
+}
+.text1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 54px;
+}
+.text2{
+    font-size: 13px;
+    padding: 19px 191px;
+    text-align: center;
+}
+.text3{
+    padding-top: 54px;
+    
+}
+.text4{
+    padding-top: 54px;
+    
+}
+.text5{
+    padding-top: 54px;
+    
+}
+.text6{
+    padding-top: 54px;
+
+}
+.text3:hover{
+    padding-top: 54px;
+    color:#037dd6;
+    cursor:pointer;
+    
+}
+.text4:hover{
+    padding-top: 54px;
+    color:#037dd6;
+    cursor:pointer;
+    
+}
+.text5:hover{
+    padding-top: 54px;
+    color:#037dd6;
+    cursor:pointer;
+    
+}
+.text6:hover{
+    padding-top: 54px;
+    color:#037dd6;
+    cursor:pointer;
+}
+.page-9{
+    background-color: #6a737d;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.page-9>img{
+        width: 22vw;
+    position: absolute;
+    bottom: -659vh;
+    left: 17vw;
+}
+.page-9>.text-shop{
+    padding-top: 172px;
+    padding-left: 569px;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+.shop{
+    width: 170px;
+    margin-left: 43vw;
+    margin-top: 40px;
+    border: white solid 2px;
+    height: 45px;
+    border-radius: 116px;
+    background: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-bottom:10vh ;
+    
+}
+.shop:hover{
+    width: 165px;
+    margin-left: 568px;
+    margin-top: 40px;
+    border: #037dd6 solid 2px;
+    height: 45px;
+    border-radius: 116px;
+    background: none;
+    font-size: 20px;
+    color: #037dd6;
+    font-weight: 500;
+    cursor: pointer;
+}
+.page-10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    height: 250px;
+    padding-bottom: 10px;
+}
+.texta{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.textb{
+    font-size: 14px;
+    font-weight: 500;
+}
+.signup{
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-radius:555px;
+    background: #037dd6;
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    background: #e9ebee;
+    padding: 98px 20px;
+    margin-top: auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90%;
+    /* background-color: orange; */
+    margin: 0 auto;
+}
+.liGang{
+    list-style: none;
+    font-size: 12px;
+    padding: 7px 0px;
+}
+.footer-container>div>ul>H1{
+    font-size: 18px;
+    padding-bottom:15px;
+    color: orange;
+    font-weight: 500;
+}
+.real-logo>img{
+    position: relative;
+    top: 0px;
+    left: 194px;
+    padding-bottom: 30px;
+}
+.copyright{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.copyright:hover{
+    list-style: none;
+    /* position: absolute; */
+    color: black;
+    font-size: 12px;
+    padding-top: 30px;
+}
